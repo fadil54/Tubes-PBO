@@ -1,0 +1,142 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+h1,h2,h3,h4,h5,h6{
+    font-weight: 400;
+}
+.form__title{
+    font-size: 24px;
+    margin-bottom: 88px;
+    font-family: Poppins;
+}
+.form__title--blue{
+    color: #2192FF;
+    font-weight: bold;
+}
+.form__elemen{
+    margin-bottom: 52px;
+}
+.form__elemen-title{
+    font-size: 15px;
+    font-weight: 600;
+}
+.form-cn{
+    /* padding: 20px; */
+    width: 93%;
+    margin: 0 auto;
+    margin-top: 20px;
+    font-family: Poppins;
+}
+.form__input{
+    width: 100%;
+    height: 34px;
+    border: 1px solid black;
+    background-color: #F5F5F5;
+    margin-top: 5px;
+    border-radius: 5px;
+    padding-left: 10px;
+}
+.form__label{
+    font-size: 15px;
+    margin-bottom: 5px;
+    display: inline-block;
+    color: #2192FF;
+
+}
+.form__error{
+    display: block;
+    font-size: 10px;
+    color: red;
+    margin-top: 3px;
+}
+.hidden{
+    display: none;
+}
+.form__submit{
+    height: 34px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #F5F5F5;
+    background-color: #2192FF;
+    width: 100%;
+    /* padding: 8px 15px; */
+    font-size: 15px;
+    margin: 122px 0 0 0;
+    font-family: Montserrat;
+}
+.form__submit:hover{
+    background-color: rgb(13, 126, 235);
+    transition: 100ms;
+}
+/* todo Search*/
+.form-cn-search{
+    width: 93%;
+    margin: 0 auto 0 auto;
+}
+.form-search{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.form__elemen-search{
+    width: 256px;
+}
+.form__title-search{
+    font-family: Poppins;
+}
+.form__input-search{
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+.form__submit-search{
+    cursor: pointer;
+    width: 80px;
+    padding: 0;
+    background-color: #2192FF;
+    color: #F5F5F5;
+    border: none;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+.form__input-submit:hover{
+    background-color: rgb(13, 126, 235);
+    transition: 100ms;
+}
+/*? Form Popup */
+.form-cn-popup{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-60%);
+    width: 400px;
+    height: 500px;
+    background-color: #F5F5F5;
+    border-radius: 5px;
+    padding-top: 25px;
+    box-shadow: 2px 0 4px 0 rgba(0, 0, 0, 0.25);
+}
+.form-popup{
+    width: fit-content;
+    margin: 0 auto;
+}
+.form__submit-popup{
+    height: 34px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #F5F5F5;
+    background-color: #2192FF;
+    font-family: Montserrat;
+    width: 89px;
+    font-size: 20px;
+    margin: 20px 0 0 0;
+}
+.form__input-popup{
+    width: 331px;
+    height: 34px;
+}
+

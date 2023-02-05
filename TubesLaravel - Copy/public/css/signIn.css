@@ -1,0 +1,56 @@
+.form__label-password{
+    margin-top: 10px;
+    font-size: 13px;
+    display: block;
+}
+.form__label-password--link{
+    margin-top: 10px;
+    color: #000000;
+    text-decoration-line: underline;
+    font-size: 13px;
+    cursor: pointer;
+}
+.form__submit{
+    /* width: 100%; */
+}
+.hidden{
+    display: none;
+}
+@media only screen and (min-width : 600px){
+    body{
+        background-color: #2192FF;
+    }
+    .form-cn{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-60%);
+        width: 400px;
+        height: 500px;
+        background-color: #F5F5F5;
+        border-radius: 5px;
+        padding-top: 45px;
+    }
+    .form{
+        width: fit-content;
+        margin: 0 auto;
+    }
+    .form__elemen{
+        margin-bottom: 10px;
+    }
+    .form__title{
+        text-align: center;
+        font-size: 25px;
+        margin-bottom: 20px;
+    }
+    .form__input{
+        width: 331px;
+        height: 34px;
+    }
+    .form__submit{
+        width: 125px;
+        font-size: 20px;
+        margin: 20px 0 0 0;
+        display: inline;
+    }
+}

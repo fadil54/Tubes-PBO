@@ -1,0 +1,66 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+h1,h2,h3,h4,h5,h6{
+    font-weight: 400;
+}
+body{
+    background-color: #F5F5F5;
+}
+/* todo Form */
+
+.form__title{
+    text-align: center;
+    margin: 40px;
+}
+.form-cn{
+    width: 330px;
+    margin-top: 80px;
+}
+.form__elemen{
+    margin-bottom: 25px;
+}
+.form__elemen-title{
+    margin-bottom: 15px;
+}
+.form__label{
+    color: #000000;
+}
+.form__submit{
+    width: max-content;
+    padding: 0 8px;
+    margin: 0;
+}
+.form__submit-create,.form__submit-update{
+    /* width: 165px; */
+}
+.form-cashier{
+    margin-top: 62px;
+}
+@media only screen and (min-width : 992px){
+    .container{
+        display: flex;
+        flex-direction: row-reverse;
+    }
+    .nav{
+        left: 0;
+        top: 0;
+        height: 100%;
+        width: 80px;
+        flex: 1;
+    }
+    .nav__icon{
+        width: 30px;
+    }
+    .nav__items{
+        /* align-items: unset; */
+        flex-direction: column;
+        padding-top: 30px;
+        width: 100%;
+    }
+    .nav__item{ 
+        margin-bottom: 40px;
+    }
+} 

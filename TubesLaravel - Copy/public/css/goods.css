@@ -1,0 +1,157 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: #F5F5F5;
+}
+h1,h2,h3,h4,h5,h6{
+    font-weight: 400;
+}
+/* todo Form */
+.form__title{
+    margin-bottom: 10px;
+}
+.form__elemen{
+    margin-bottom: 12px;
+}
+.form__label{
+    color: #000000;
+}
+.form__submit{
+    margin-top: 28px;
+    width: 89px;
+    font-size: 15px;
+}
+.form__submit-search{
+    margin-top: 5px;
+}
+.form__input{
+    max-width: 992px;
+}
+.form-cn-popup{
+    z-index: 1;
+}
+.tb__icn-trash{
+    all: unset;
+    cursor: pointer;
+    margin-top: 4.5px;
+}
+.alert__btn-yes {
+    background-color: red;
+}
+.alert__btn-yes:hover {
+    background-color: rgba(255, 0, 0, 0.5);
+}
+.alert__btn-cancel {
+    border: none;
+    background-color: rgb(187, 187, 187);
+    color: #FFFFFF;
+}
+.alert__btn-cancel:hover{
+    background-color: rgba(187, 187, 187, 0.5);
+}
+.alert__btn-cancel,.alert__btn-yes{
+    display: inline-block;
+    margin: 0 5px;
+    color: #FFFFFF;
+}
+/* todo general */
+.hidden{
+    display: none;
+}
+
+@media only screen and (min-width : 768px){
+    .tb{
+        font-size: 15px;
+    }
+}
+@media only screen and (min-width : 992px){
+    .container{
+        display: flex;
+        flex-direction: row-reverse;
+    }
+    .col-2{
+        display: flex;
+        flex: 1;
+    }
+    .cart{
+        flex: 1.5;
+    }
+    /* Form*/
+    .form-cn{
+        margin-top: 80px;
+        margin-left: 15%;
+        flex: 1;
+    }
+    .form__input{
+        width: 331px;
+    }
+    .form__input-search{
+        width: 100%;
+    }
+    .form__title{
+        margin-bottom: 30px;
+    }
+    .form-cn-popup{
+        margin: 0;
+        flex: unset;
+        position: absolute;
+    }
+    /*List goods  */
+    .list-goods{
+        flex: 1.5;
+        margin-top: 80px;
+    }
+
+    /* Nav */
+    .nav{
+        left: 0;
+        top: 0;
+        height: 100%;
+        width: 80px;
+        flex: 1;
+    }
+    .nav__icon{
+        width: 30px;
+    }
+    .nav__items{
+        /* align-items: unset; */
+        flex-direction: column;
+        padding-top: 30px;
+        width: 100%;
+    }
+    .nav__item{ 
+        margin-bottom: 40px;
+    }
+    /* Table */
+    .tb-cn{
+        width: 500px;
+        margin-top: 0;
+        margin: 0;
+    }
+    .tb{
+        width: 100%;
+        font-size: 15px;
+    }
+    .tb__head{
+        height:40px;
+    }
+    .tb__row--even,
+    .tb__row--odd{
+        height: 25px;
+    }
+
+    /* Search */
+    .form-cn-search{
+        width: 80%;
+        margin: 0;
+    }
+}
+
+@media only screen and (min-width : 1200px){
+    .tb-cn{
+        width: 600px;
+    }
+}
